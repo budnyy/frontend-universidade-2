@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --auYellow: #FFC400;
+  --auMidYellow: #F5A800;
+  --auDarkYellow: #B87900;
+  --auWhite :#FFF8E1;
+  --auAlternateWhite: #F3EFE6;
+  --auGreen: #1F4D3A;
+  --auLightGreen: #7BB661;
+  --auBlack: #1E2A2F;
+  --auBlackDetail: #1e2a2f2f;
+  --auPureWhite: #FFFFFF;
+
+  --text-body: 1rem;
+  --text-small: 0.875rem;
+  --text-caption: 0.75em;
+  --heading-sm: 1.25rem;
+  --heading-md: 1.5rem;
+  --heading-lg: 2rem;
+  --heading-xlg: 3rem;
+}
+
+body{
+  background-color: var(--auWhite);
+  font-family: "Space Grotesk", sans-serif;
+}
+

@@ -1,0 +1,118 @@
+body{
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  color: var(--auBlack);
+}
+
+#mainContainer{
+  width: 400px;
+  max-width: 100%;
+
+  display: flex;
+  flex-flow: column nowrap;
+
+  background-color: var(--auPureWhite);
+  border: 1px solid var(--auBlackDetail);
+  border-top: 6px solid var(--auYellow);
+  border-radius: 12px;
+  box-shadow: 0 8px 24px var(--auBlackDetail);
+
+  padding: 30px;
+}
+
+header{
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+h1{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: var(--heading-xlg);
+  color: var(--auDarkYellow);
+}
+
+h2{
+  font-size: var(--text-small);
+  max-width: 280px;
+  margin: 0 auto;
+}
+
+form{
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+form label{
+  display: block;
+  margin-bottom: 4px;
+  font-size: var(--text-small);
+  font-weight: 600;
+  color: var(--auBlack);
+}
+
+form input:not([type="button"]){
+  height: 40px;
+  width: 100%;
+  padding: 0 10px;
+
+  font-family: inherit;
+  font-size: var(--text-body);
+  color: var(--auBlack);
+
+  border-radius: 6px;
+  border: 1px solid var(--auBlackDetail);
+  background-color: var(--auAlternateWhite);
+}
+
+form input:not([type="button"]):focus{
+  outline: none;
+  border-color: var(--auMidYellow);
+  background-color: var(--auWhite);
+  box-shadow: 0 0 0 3px #FFC40040;
+}
+
+form input[type="button"]{
+  background-color: var(--auYellow);
+  color: var(--auBlack);
+  height: 44px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+
+  font-family: inherit;
+  font-weight: 700;
+  font-size: var(--heading-sm);
+
+  margin: 15px 0 10px;
+  transition: background-color 0.2s;
+}
+
+form input[type="button"]:hover{
+  background-color: var(--auMidYellow);
+}
+
+form div{
+  margin: 6px 0;
+}
+
+.toggleSpan{
+  display: block;
+  text-align: center;
+  font-size: var(--text-small);
+  color: var(--auGreen);
+  cursor: pointer;
+}
+
+.toggleSpan:hover{
+  color: var(--auLightGreen);
+  text-decoration: underline;
+}
+
+.hidden{
+  display: none;
+}
