@@ -10,3 +10,7 @@ function toggleMethod(){
   loginContainer.classList.toggle("hidden");
   registerContainer.classList.toggle("hidden");
 }
+
+document.getElementById("loginButton").addEventListener("click", () => {
+  window.location.href = "main/main.html";
+});

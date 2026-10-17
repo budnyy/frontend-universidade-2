@@ -20,7 +20,7 @@ Landing page da Áurea, uma empresa fictícia de energia solar. É um projeto fr
 ## Como Executar
 
 1. Clone ou baixe o repositório.
-2. Abra `main/main.html` no navegador.
+2. Abra `index.html` (página de login) no navegador.
 
 Você também pode servir a pasta com um servidor local, como a extensão Live Server do VS Code.
 
